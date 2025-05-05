@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anfiteatro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Anfiteatro Paolo</h1>
+        <h2 id="battle-status">get ready</h2>
+        
+        <div class="battle-container">
+            <!-- player 1 -->
+            <div class="player-section" id="player1">
+                <div class="player-name" id="name1"></div>
+                <div class="player-portrait" id="icon1"></div>
+                <div class="health-bar-container">
+                    <div class="health-bar" id="p1-health"></div>
+                </div>
+                <div class="key-instruction">A</div>
+            </div>
+            
+            <!-- battle area -->
+            <div class="battle-area">
+                <div id="countdown">3</div>
+                <div class="lane" id="lane-p1">
+                    <div class="hit-zone"></div>
+                </div>
+                <div class="lane" id="lane-p2">
+                    <div class="hit-zone"></div>
+                </div>
+            </div>
+            
+            <!-- player 2 -->
+            <div class="player-section" id="player2">
+                <div class="player-name" id="name2"></div>
+                <div class="player-portrait" id="icon2"></div>
+                <div class="health-bar-container">
+                    <div class="health-bar" id="p2-health"></div>
+                </div>
+                <div class="key-instruction">L</div>
+            </div>
+        </div>
+        
+        <div id="battle-message"></div>
+        <button id="restart-button">Nuova Battaglia</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
