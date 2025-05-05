@@ -147,6 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // restart
     restartButton.addEventListener('click', function() {
-        window.location.href = 'player1select.html';
+        window.location.href = 'index.html';
     });
 });
